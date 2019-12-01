@@ -1,0 +1,73 @@
+/*
+Name: Osman Fazlić
+Course: Web Application Development
+Date: December 1st, 2019
+*/
+body {
+	background-image: url('ceramic.jpg');
+
+	font-family: Impact;
+	margin: 0;
+}
+#map {
+		position: relative;
+		overflow: hidden;
+		left: 400px;
+        width: 600px;
+        height: 400px;
+        margin: 0px auto;
+		border: 5px dotted Olive;
+}
+.top {
+	background-color: grey;
+	overflow: auto;
+}
+.top a {
+	float: left;
+	width: 15%;
+	display: inline;
+	color: MidnightBlue;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+}
+.top a:hover {
+	background-color: lightGrey;
+	color: black
+}
+@media screen and (max-width: 600px) {
+	.top a {
+		float: none;
+		display: block;
+		text-align: center;
+		width: 100%;
+		margin: 0;
+		padding: 7px;
+	}
+	.image-slide {
+		max-width: 90%;
+		max-height: 60%;
+		min-height:60%;
+		min-width: 90%;
+		margin: 0px auto;
+		position: relative;
+		left: 3%;
+	}
+	#map {
+		max-width: 90%;
+		max-height: 60%;
+		position: relative;
+		top: 600px;
+		left: -1%;
+		
+	}
+}
+h1 {
+	text-align: center;
+	display: block;
+	margin: 30px auto 0px auto;
+	width: 20%;
+	background-color: white;
+	color: navy;
+}

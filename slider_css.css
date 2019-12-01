@@ -1,0 +1,22 @@
+.slider {
+	margin: 0px auto;
+	padding-top: 50px;
+	display: block;
+	}
+.slide-group {
+	display: block;
+	margin: 0px auto;
+	}
+.slide {
+	display: none;
+	position: absolute;
+	}
+.slide:first-child {
+    display: block;
+	}
+.image-slide {
+	width: 750px;
+	height: 500px;
+	margin: 0px auto;
+	border: 5px dotted Olive;
+}
